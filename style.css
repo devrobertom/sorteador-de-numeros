@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary: #FFFFFF;
+    --color-secondary: #C7C9CC;
+    --color-tertiary: #D9D9D9;
+    --color-brand: #C58DE7;
+    
+    --bg-primary: #020202;
+    --bg-secondary: #111012;
+    --bg-tertiary: #24222E;
+    --bg-brand: #C58DE7;
+    --bg-gray: #3D3D3D;
+
+    --fm-sora: "Sora", sans-serif;
+    --dp-lg: 800 72px/130% var(--fm-sora);
+    --dp-md: 800 40px/130% var(--fm-sora);
+    --dp-sm: 700 32px/130% var(--fm-sora);
+
+    --fm-robotoM: "Roboto Mono", monospace;
+    --overline: 700 16px/150% var(--fm-robotoM);
+
+    --fm-robotoF: "Roboto Flex", sans-serif;
+    --p-lg: 500 16px/150% var(--fm-robotoF);
+    --p-md: 500 14px/150% var(--fm-robotoF);
+    --p-sm: 500 12px/150% var(--fm-robotoF);
+    --label-md: 700 20px/150% var(--fm-robotoF);
+    --label-sm: 700 16px/150% var(--fm-robotoF);
+}
+
+body{
+    background-image: url(assets/Shapes.png);
+    background-repeat: no-repeat;
+    background-color: var(--bg-primary);
+    background-size: cover;
+    min-height: 100%;
+}
+
+.main{
+    margin-left: 120px;
+}
+
+#logo{
+    margin-top: 76px;
+    margin-left: 120px;
+}
+
+#title{
+    margin-top: 89px;
+}
+
+#title p{
+    font-family: var(--fm-sora);
+    font-size: 16px;
+    line-height: 150%;
+   color: lightgray;
+}
+
+#title h1{
+    font-family: var(--fm-sora);
+    font-size: 72px;
+    color: var(--color-primary);
+    margin-top: 12px;
+}
+
+#infos{
+    display: grid;
+    gap: 8px;
+}
+
+#infos span{
+    color: var(--color-brand);
+    font-family: var(--fm-robotoF);
+    font-size: 14px;
+    line-height: 150%;
+}
+
+#infos p{
+    color: var(--color-secondary);
+    font-family: var(--fm-robotoF);
+    font-size: 12px;
+    line-height: 150%;
+    margin-left: 23px;
+
+}
